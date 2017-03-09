@@ -155,17 +155,17 @@ a:hover {
 	padding: 25px 0px;
 }
 
-.navigation li span {
+.navigation li  {
 	display: block;
 	border-right: 1px solid #767676; /* полоса разделитель */
-	height: 11px; /* высота полосы разделителя */
-	line-height: 11px; /* выровнять всю строку по высоте полосы разделителя */
+	/* height: 11px; */ /* высота полосы разделителя */
+	line-height: 55px; /* выровнять всю строку по высоте полосы разделителя */
 	padding: 0px 25px;
 	
 }
 
-.navigation li span:last-child {
-	/*border-right: none; */
+.navigation li:last-child {
+	border-right: none;
 }
 
 .navigation li a {
